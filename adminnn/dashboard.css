@@ -1,0 +1,32 @@
+body,*
+{
+    margin: 0;
+    padding: 0;
+}
+.show
+{
+    display: flex;
+    width: 60%;
+    margin: auto;
+    gap:60px;
+    margin-top: 70px;
+}
+.tr_stu
+{
+    border: 2px solid silver;
+    border-top: 50px solid goldenrod;
+    border-bottom: 5px dotted dodgerblue;
+    width: 33%;
+    height: 100px;
+    text-align: center;
+    padding: 70px 0;
+}
+h4
+{
+    font-family:Verdana, Geneva, sans-serif;
+}
+p
+{
+    
+    font-family:Verdana, Geneva, sans-serif;
+}
