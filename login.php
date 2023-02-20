@@ -10,15 +10,7 @@
 </head>
 <?php
 session_start();
-// if(isset($_SESSION['username'])){
-//     header('location:stu_first.php');
-// }
 
-
-
-// if(!isset($_SESSION['username'])){
-//     header('location:login.php');
-// }
 ?>
 
 <body>
@@ -27,6 +19,9 @@ if($_SESSION['id']!="")
 {
     header("location:stu_first.php");
 }
+else
+{
+
 
 
 ?>
@@ -94,6 +89,7 @@ if($_SESSION['id']!="")
             }
         }
     }
+}
     ?>
 
     <script>
