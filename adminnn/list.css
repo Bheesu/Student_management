@@ -73,3 +73,9 @@ table tr:hover
     border-radius: 4px;
     cursor: pointer;
   }
+  input[type=search]
+  {
+    float: right;
+    height: 30px;
+    border: 2px #297eae;
+  }
