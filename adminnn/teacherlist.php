@@ -56,6 +56,17 @@
     if (window.history.replaceState) {
       window.history.replaceState(null, null, window.location.href);
     }
+    function confirmation()
+    {
+       let x= confirm("Do you really want to delete this account");
+       if(x==true)
+       {
+            return true;
+       }
+       else{
+            return false;
+       }
+    }
   </script>
 </body>
 
