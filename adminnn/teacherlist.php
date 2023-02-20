@@ -20,6 +20,7 @@
             <th>Subject</th>
             <th>Email</th>
             <th>Address</th>
+            <th colspan="2">Action</th>
             <?php
 
 
@@ -41,6 +42,8 @@
                 echo "<td>" . $row["subject"] . "</td>";
                 echo "<td>" . $row["email"] . "</td>";
                 echo "<td>" . $row["Address"] . "</td>";
+                // echo "<td><a href='editstudent.php?edit=".$row["id"]."'><button>Edit</button></a></td>";
+                echo "<td><a href='teacherdelete.php?delete=".$row['id']." ' onclick= 'return confirmation();'><button>Delete</button></a></td>";
                 echo "</tr>";
             }
 
